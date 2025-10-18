@@ -1,6 +1,4 @@
-Here’s a complete `README.md` file for **Global Build Manager** ready to use:
 
-````markdown
 # Global Build Manager (GBM)
 
 **Global Build Manager (GBM)** is a smart, adaptive build and run manager for Go projects (or any CLI-based projects). GBM watches your project files, automatically rebuilds when you stop typing, and runs the latest version while gracefully stopping previous processes. Inspired by Claude CLI, it provides a clear and interactive console UI.
@@ -109,4 +107,5 @@ gbm /path/to/project
 ## License
 
 MIT License © 2025 Your Name
+
 
