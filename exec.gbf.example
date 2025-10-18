@@ -1,5 +1,6 @@
-# Global Build Manager Configuration Example
+# Configuration Example for Global Build Manager
 # Copy this file to your project root and rename it to 'exec.gbf'
+# Then edit it with your project-specific build and run commands
 
 # Directory where build commands will be executed
 build=.
