@@ -1,0 +1,29 @@
+# Global Build Manager Configuration Example
+# Copy this file to your project root and rename it to 'exec.gbf'
+
+# Directory where build commands will be executed
+build=.
+
+# Command to build your project
+# Examples:
+#   go build -o myapp
+#   go build -o bin/server cmd/server/main.go
+#   make build
+#   npm run build
+build_cmd=go build -o myapp
+
+# Command to run your application
+# Examples:
+#   ./myapp
+#   ./bin/server
+#   npm start
+#   python app.py
+run_cmd=./myapp
+
+# Comma-separated list of directories/files to ignore
+# Changes to these paths won't trigger rebuilds
+# Examples:
+#   vendor,node_modules,.git
+#   tmp,testdata,docs
+#   .git,vendor,build
+ignore=.git,vendor

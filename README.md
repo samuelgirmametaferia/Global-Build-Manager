@@ -45,8 +45,14 @@ Or specify a path to watch:
 
 ### Configuration File
 
-Create an `exec.gbf` file in your project root to configure build and run commands:
+Create an `exec.gbf` file in your project root to configure build and run commands. You can use the provided example as a starting point:
 
+```bash
+cp exec.gbf.example exec.gbf
+# Edit exec.gbf with your project-specific settings
+```
+
+Example configuration:
 ```
 build=/path/to/build/directory
 build_cmd=go build -o myapp
